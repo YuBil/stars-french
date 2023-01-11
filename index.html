@@ -1,0 +1,139 @@
+<!--
+    What are u doing here? :)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Francais</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+        }
+        #main {
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 0 22px rgb(0 0 0 / 44%);
+            height: 100%;
+            margin: 50px auto;
+            padding: 16px;
+            position: relative;
+            transform: translateZ(0);
+            width: 860px;
+            max-width: calc(100% - 16px - 16px);
+            z-index: 1;
+            min-height: calc(120vh - 16px);
+        }
+        li {
+            text-align: left;
+        }
+        .story {
+            display: flex;
+            width: 860px;
+        }
+        .left {
+            width: 60%;
+            text-align: center;
+        }
+        .right {
+            width: 40%;
+            text-align: left;
+        }
+        .img-card {
+            width: 50%;
+            text-align: center;
+        }
+        img {
+            width: 90%;
+            height: 90%;
+        }
+        li {
+            margin-bottom: 20px ;
+        }
+        h2 {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>Une petite histoire d'étoiles <br>et intelligence artificielle</h1>
+
+        <div>
+            <h2>1. Créer une histoire</h2>
+            <video width="720" height="480" controls>
+                <source src="videos/chat-gpt.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div>
+            <h2>2. Créer des images</h2>
+            <video width="720" height="480" controls>
+                <source src="videos/cropped-midjourney.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div>
+            <h2>3. Créer un son</h2>
+            <video width="720" height="480" controls>
+                <source src="videos/cropped-voice-ai.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <h2>4. Le résultat</h2>
+        <div class="story">
+            <div class="left">
+                <img class="story-image" src="images/man2.png" alt="">
+            </div>
+            <div class="right">
+                <audio controls muted>
+                    <source src="audios/sound-from-ai.m4a" type="audio/x-m4a">
+                    Your browser does not support the audio element.
+                </audio>
+                <br>
+                <p>
+                    Il était une fois un homme qui s'était perdu en pleine forêt.
+                </p>
+                <p>
+                    Il avait décidé de passer la nuit sous les étoiles, qui brillaient magnifiquement dans le ciel nocturne.
+                </p>
+                <p>
+                    Il se sentit soudainement à l'aise et en paix, réalisant qu'il pourrait être perdu, mais il était toujours entouré de la beauté de la nature.
+                </p>
+            </div>
+        </div>
+
+        <h2>Les autres images</h2>
+        <div class="story">
+            <div class="img-card">
+                <img src="images/man1.png" alt="">
+            </div>
+            <div class="img-card">
+                <img src="images/forest.png" alt="">
+            </div>
+        </div>
+        <div class="story">
+            <div class="img-card">
+                <img src="images/man2.png" alt="">
+            </div>
+            <div class="img-card">
+                <img src="images/forest4.png" alt="">
+            </div>
+        </div>
+
+        <div class="links">
+            <h2>Les liens</h2>
+            <ul>
+                <li><a href="https://chat.openai.com/">Créer une histoire avec Chat GPT</a></li>
+                <li><a href="https://time.com/6240569/ai-childrens-book-alice-and-sparkle-artists-unhappy/">(des nouvelles de Times) He Used AI to Publish a Children’s Book in a Weekend. Artists Are Not Happy About It</a></li>
+                <li><a href="https://midjourney.com/">Créer une image avec Midjourney</a></li>
+                <li><a href="https://murf.ai/">Créer un son avec murf</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
